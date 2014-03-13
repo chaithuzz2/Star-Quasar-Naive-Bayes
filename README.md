@@ -28,7 +28,7 @@ Using the Naive Bayes
 ========================
     import naive_bayes
     # Initialize the classifier
-    classifier = naive_bayes()
+    classifier = naive_bayes.naive_bayes()
     # Train the classifier
     classifier.train(xtrain, ytrain)
     #predict the labels of the testing data
